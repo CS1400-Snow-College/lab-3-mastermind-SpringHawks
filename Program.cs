@@ -104,3 +104,7 @@ do
 
 Console.WriteLine($"That is the right answer {playerName}! You guessed {secret} in {countGuess} guesses.");
 //I really like Visual Studio better than VS code. 
+
+//Just making a note here that I did 5&6. But I also turned this in before midnight completed. This was an afterthought. 
+//5 correct positions Add a nested loop that counts the number positions in the guess where the character at that position in the guess matches the character at that position in the secret. Report that count to the user. For now, you can assume that the guess is of the same length as the secret. (hints: remember that you can get the length of a string s with s.Length and you can get the next character after skipping the first i characters with s[i], so a for-loop can conveniently loop over all positions from 0 up to the length and count the number of positions with matching characters.) (Remember to run, add, and commit.)
+// 6 .correct letters at wrong positions Within the main loop body, create a variable that will hold the number of letters that are out of place in the guess. Modify the body of the nested loop so that if the character at a given position in the guess does not match the character at the same position in the secret, then you will check if any of the positions in the secret match that letter (hint: this will be yet another level of nesting; a for loop would work nicely since you know to simply look at every index in the secret). (Remember to run, add, and commit.)
